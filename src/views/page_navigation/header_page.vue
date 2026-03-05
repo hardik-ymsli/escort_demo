@@ -34,9 +34,11 @@ const refresh = ref();
 const clseDetailTab = ref();
 const openBtnDetailTag = ref();
 const viy2CodeInput_NWppR = ref();
+const viy2InputBox_OibG5 = ref();
 
 const formData = reactive({
-  datafieldviy2CodeInput_NWppR: ''
+  datafieldviy2CodeInput_NWppR: '',
+  datafieldviy2InputBox_OibG5: ''
 });
 
 const btnDetailClick = () => {
@@ -128,6 +130,14 @@ function openDetailOnSameTag() {
 
     <VueFormItem label="Name" prop="datafieldviy2CodeInput_NWppR">
       <VueCodeInput id="viy2CodeInput_NWppR" ref="viy2CodeInput_NWppR" v-model="formData.datafieldviy2CodeInput_NWppR" />
+    </VueFormItem>
+
+
+    <VueFormItem label="Age" prop="datafieldviy2InputBox_OibG5">
+      <VueInput data-type="string" id="viy2InputBox_OibG5" ref="viy2InputBox_OibG5" v-model="formData.datafieldviy2InputBox_OibG5">
+
+
+      </VueInput>
     </VueFormItem>
 
 
