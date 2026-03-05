@@ -1,0 +1,16 @@
+{
+  "label" : {
+    "firstName" : "Japense firstName",
+    "lastName" : "Japanese Last Name",
+    "description" : "japense despription"
+  },
+  "button" : {
+    "setButton" : "JapenseSetButton"
+  },
+  "error" : {
+    "required" : "errrorrrr"
+  },
+  "Button" : {
+    "printButton" : "JapenesePrintButton"
+  }
+}

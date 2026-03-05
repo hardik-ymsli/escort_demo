@@ -1,0 +1,16 @@
+{
+  "label" : {
+    "firstName" : "Chinese firstName",
+    "lastName" : "Chinese Last Name",
+    "description" : "chinese descritpon"
+  },
+  "button" : {
+    "setButton" : "chineseSetButton"
+  },
+  "error" : {
+    "required" : "eroor"
+  },
+  "Button" : {
+    "printButton" : "ChinesePrintButton"
+  }
+}

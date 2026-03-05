@@ -1,0 +1,16 @@
+{
+  "label" : {
+    "firstName" : "firstName",
+    "lastName" : "lastName",
+    "description" : "Description"
+  },
+  "button" : {
+    "setButton" : "Set"
+  },
+  "error" : {
+    "required" : "Error"
+  },
+  "Button" : {
+    "printButton" : "Print"
+  }
+}
